@@ -18,7 +18,7 @@ public class Ejercicio2 : MonoBehaviour
         montoT = precio1 + precio2 + precio3;
         if(montoDisponible < montoT)
         {
-            Debug.Log("El costo total de los tres productos supera el presupuesto por: " + (montoT - montoDisponible));
+            Debug.Log("El costo total de los tres productos supera el presupuesto por: $" + (montoT - montoDisponible));
         }
         else if(montoDisponible == montoT)
         {
@@ -26,7 +26,7 @@ public class Ejercicio2 : MonoBehaviour
         }
         else
         {
-            Debug.Log("El costo total de los tres productos no supera el presupuesto por: " + (montoDisponible - montoT));
+            Debug.Log("El costo total de los tres productos no supera el presupuesto por: $" + (montoDisponible - montoT));
         }
     }
 
